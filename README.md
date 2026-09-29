@@ -56,63 +56,63 @@ Whether you are an enterprise recruiter searching for AI talent intelligence eng
 
 Open-source candidate sourcing and recruiting tools empower organizations to build custom pipelines, maintain full data privacy compliance (GDPR/CCPA), and avoid vendor lock-in.
 
-*All open-source repositories below are sorted by **GitHub Star Count** in descending order:*
+*All open-source repositories below are sorted by **GitHub Stars_Count** in descending order:*
 
 ### 🥇 Top Starred Open-Source Sourcing & Resume Systems
 
-1. **[Resume-Matcher](https://github.com/srbhr/Resume-Matcher)** [![GitHub stars](https://img.shields.io/github/stars/srbhr/Resume-Matcher?style=social&color=white)](https://github.com/srbhr/Resume-Matcher/stargazers)
+1. **[Resume-Matcher](https://github.com/srbhr/Resume-Matcher)** [![GitHub_Stars](https://img.shields.io/github/stars/srbhr/Resume-Matcher?style=social&color=white)](https://github.com/srbhr/Resume-Matcher/stargazers)
    - **Description**: Free, open-source AI-powered resume matching and ATS optimization tool. Uses vector embeddings and LLMs to score resumes against job descriptions locally to preserve candidate privacy.
    - **Tech Stack**: Python, Streamlit, Qdrant, PyPDF2.
 
-2. **[pyresparser](https://github.com/OmkarPathak/pyresparser)** [![GitHub stars](https://img.shields.io/github/stars/OmkarPathak/pyresparser?style=social&color=white)](https://github.com/OmkarPathak/pyresparser/stargazers)
+2. **[pyresparser](https://github.com/OmkarPathak/pyresparser)** [![GitHub_Stars](https://img.shields.io/github/stars/OmkarPathak/pyresparser?style=social&color=white)](https://github.com/OmkarPathak/pyresparser/stargazers)
    - **Description**: Python library for extracting structured information (Name, Email, Phone, Skills, Education, Experience) from resumes in PDF and DOCX formats using spaCy and NLTK.
    - **Tech Stack**: Python, spaCy, NLTK, docx2txt.
 
-3. **[OpenCATS](https://github.com/opencats/OpenCATS)** [![GitHub stars](https://img.shields.io/github/stars/opencats/OpenCATS?style=social&color=white)](https://github.com/opencats/OpenCATS/stargazers)
+3. **[OpenCATS](https://github.com/opencats/OpenCATS)** [![GitHub_Stars](https://img.shields.io/github/stars/opencats/OpenCATS?style=social&color=white)](https://github.com/opencats/OpenCATS/stargazers)
    - **Description**: The standard open-source Applicant Tracking System (ATS) and recruiting CRM. Provides applicant tracking, resume management, client database, job posting management, and recruitment reporting.
    - **Tech Stack**: PHP, MySQL, Apache.
 
-4. **[OpenPostings](https://github.com/Masterjx9/OpenPostings)** [![GitHub stars](https://img.shields.io/github/stars/Masterjx9/OpenPostings?style=social&color=white)](https://github.com/Masterjx9/OpenPostings/stargazers)
+4. **[OpenPostings](https://github.com/Masterjx9/OpenPostings)** [![GitHub_Stars](https://img.shields.io/github/stars/Masterjx9/OpenPostings?style=social&color=white)](https://github.com/Masterjx9/OpenPostings/stargazers)
    - **Description**: Open-source job posting aggregator syncing job data from 110,000+ companies across 80+ ATS platforms (Greenhouse, Lever, Workday, BambooHR). Includes desktop & mobile apps.
    - **Tech Stack**: TypeScript, Node.js, Electron, Android.
 
-5. **[talent-sourcing-toolkit](https://github.com/ohsusannamarie/talent-sourcing-toolkit)** [![GitHub stars](https://img.shields.io/github/stars/ohsusannamarie/talent-sourcing-toolkit?style=social&color=white)](https://github.com/ohsusannamarie/talent-sourcing-toolkit/stargazers)
+5. **[talent-sourcing-toolkit](https://github.com/ohsusannamarie/talent-sourcing-toolkit)** [![GitHub_Stars](https://img.shields.io/github/stars/ohsusannamarie/talent-sourcing-toolkit?style=social&color=white)](https://github.com/ohsusannamarie/talent-sourcing-toolkit/stargazers)
    - **Description**: Curated repository of talent sourcing scripts, X-ray search strings, OSINT recruiting tools, and workflow templates for candidate discovery.
    - **Tech Stack**: Markdown, Shell, Sourcing Templates.
 
-6. **[job-scraper](https://github.com/anandanair/job-scraper)** [![GitHub stars](https://img.shields.io/github/stars/anandanair/job-scraper?style=social&color=white)](https://github.com/anandanair/job-scraper/stargazers)
+6. **[job-scraper](https://github.com/anandanair/job-scraper)** [![GitHub_Stars](https://img.shields.io/github/stars/anandanair/job-scraper?style=social&color=white)](https://github.com/anandanair/job-scraper/stargazers)
    - **Description**: Automated candidate job scraper, resume parser, and job-to-resume scoring tool executed via GitHub Actions. Uses Supabase for storage and LiteLLM for AI scoring.
    - **Tech Stack**: Python, GitHub Actions, Supabase, LiteLLM.
 
-7. **[OpenJobs AI / People Skills](https://github.com/OpenJobsAI/openjobs-openclaw-skills)** [![GitHub stars](https://img.shields.io/github/stars/OpenJobsAI/openjobs-openclaw-skills?style=social&color=white)](https://github.com/OpenJobsAI/openjobs-openclaw-skills/stargazers)
+7. **[OpenJobs AI / People Skills](https://github.com/OpenJobsAI/openjobs-openclaw-skills)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenJobsAI/openjobs-openclaw-skills?style=social&color=white)](https://github.com/OpenJobsAI/openjobs-openclaw-skills/stargazers)
    - **Description**: OpenClaw skills suite for candidate discovery, people search, skill taxonomy matching, and academic scholar sourcing for AI recruiting agents.
    - **Tech Stack**: Python, OpenClaw Agent SDK.
 
-8. **[JobHuntTS](https://github.com/BaseMax/JobHuntTS)** [![GitHub stars](https://img.shields.io/github/stars/BaseMax/JobHuntTS?style=social&color=white)](https://github.com/BaseMax/JobHuntTS/stargazers)
+8. **[JobHuntTS](https://github.com/BaseMax/JobHuntTS)** [![GitHub_Stars](https://img.shields.io/github/stars/BaseMax/JobHuntTS?style=social&color=white)](https://github.com/BaseMax/JobHuntTS/stargazers)
    - **Description**: Open-source job board platform and candidate application API built with GraphQL. Supports job search, bookmarks, application tracking, and candidate submissions.
    - **Tech Stack**: Express.js, GraphQL, JavaScript.
 
-9. **[HR-OS](https://github.com/rathishreya/HR-OS)** [![GitHub stars](https://img.shields.io/github/stars/rathishreya/HR-OS?style=social&color=white)](https://github.com/rathishreya/HR-OS/stargazers)
+9. **[HR-OS](https://github.com/rathishreya/HR-OS)** [![GitHub_Stars](https://img.shields.io/github/stars/rathishreya/HR-OS?style=social&color=white)](https://github.com/rathishreya/HR-OS/stargazers)
    - **Description**: AI-native hiring operating system featuring candidate resume ingestion, local vector embeddings, explainable weighted AI scoring, screening chat interview agent, and an MCP server with 10 hiring tools.
    - **Tech Stack**: FastAPI, React 19, Vite, Tailwind v4, Claude/Ollama.
 
-10. **[JobLeet](https://github.com/nixhantb/jobleet-ui)** [![GitHub stars](https://img.shields.io/github/stars/nixhantb/jobleet-ui?style=social&color=white)](https://github.com/nixhantb/jobleet-ui/stargazers)
+10. **[JobLeet](https://github.com/nixhantb/jobleet-ui)** [![GitHub_Stars](https://img.shields.io/github/stars/nixhantb/jobleet-ui?style=social&color=white)](https://github.com/nixhantb/jobleet-ui/stargazers)
     - **Description**: Modern candidate CRM and ATS connecting candidates, recruiters, and companies with real-time notifications, talent pool management, and interview scheduling.
     - **Tech Stack**: Next.js 15, TypeScript, Tailwind CSS.
 
-11. **[ResumeParser](https://github.com/HarithaNetha8/ResumeParser)** [![GitHub stars](https://img.shields.io/github/stars/HarithaNetha8/ResumeParser?style=social&color=white)](https://github.com/HarithaNetha8/ResumeParser/stargazers)
+11. **[ResumeParser](https://github.com/HarithaNetha8/ResumeParser)** [![GitHub_Stars](https://img.shields.io/github/stars/HarithaNetha8/ResumeParser?style=social&color=white)](https://github.com/HarithaNetha8/ResumeParser/stargazers)
     - **Description**: Lightweight Flask REST API for parsing candidate resumes (PDF, DOCX, TXT) into structured JSON containing contact details and extracted skills.
     - **Tech Stack**: Python, Flask, PyMuPDF, python-docx.
 
-12. **[candidate-scorer](https://github.com/soldera-org/candidate-scorer)** [![GitHub stars](https://img.shields.io/github/stars/soldera-org/candidate-scorer?style=social&color=white)](https://github.com/soldera-org/candidate-scorer/stargazers)
+12. **[candidate-scorer](https://github.com/soldera-org/candidate-scorer)** [![GitHub_Stars](https://img.shields.io/github/stars/soldera-org/candidate-scorer?style=social&color=white)](https://github.com/soldera-org/candidate-scorer/stargazers)
     - **Description**: Chrome extension and Python candidate scoring workflow. Captures LinkedIn applicant profiles and scores candidates against job specs and culture fit using Claude AI API.
     - **Tech Stack**: JavaScript (Chrome Extension), Python, Claude API.
 
-13. **[LinkedIn Recruiter Assistant](https://github.com/junqing258/linkedin-job-assistant)** [![GitHub stars](https://img.shields.io/github/stars/junqing258/linkedin-job-assistant?style=social&color=white)](https://github.com/junqing258/linkedin-job-assistant/stargazers)
+13. **[LinkedIn Recruiter Assistant](https://github.com/junqing258/linkedin-job-assistant)** [![GitHub_Stars](https://img.shields.io/github/stars/junqing258/linkedin-job-assistant?style=social&color=white)](https://github.com/junqing258/linkedin-job-assistant/stargazers)
     - **Description**: Chrome extension for LinkedIn search optimization. Translates natural language hiring criteria into precise Boolean search queries and performs semantic candidate ranking.
     - **Tech Stack**: React 18, TypeScript, OpenAI GPT-4 API.
 
-14. **[TalentLedger](https://github.com/C4rcer/talent-ledger)** [![GitHub stars](https://img.shields.io/github/stars/C4rcer/talent-ledger?style=social&color=white)](https://github.com/C4rcer/talent-ledger/stargazers)
+14. **[TalentLedger](https://github.com/C4rcer/talent-ledger)** [![GitHub_Stars](https://img.shields.io/github/stars/C4rcer/talent-ledger?style=social&color=white)](https://github.com/C4rcer/talent-ledger/stargazers)
     - **Description**: Browser extension for local candidate tracking. One-click LinkedIn candidate logging, Kanban outreach pipeline management, local-first storage, and export to Greenhouse/Workable CSV.
     - **Tech Stack**: JavaScript, Browser Extension API.
 
@@ -133,7 +133,7 @@ To construct an end-to-end self-hosted recruiting stack:
 Contributions are welcome! To contribute:
 1. Fork this repository.
 2. Add your candidate sourcing tool, open-source project, or parser in the relevant section.
-3. Include tool name, URL, exact pricing / star badge, and factual 1-2 sentence description.
+3. Include tool name, URL, exact pricing / Stars_Badge, and factual 1-2 sentence description.
 4. Submit a Pull Request with a short summary of changes.
 
 ---
