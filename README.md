@@ -1,255 +1,163 @@
-# Awesome-Candidate-Sourcing-Platform
+# 🎯 Awesome Candidate Sourcing Platform
 
-## Top Candidate Sourcing Platforms Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Candidate-Sourcing-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Candidate-Sourcing-Platform?style=flat-square" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Candidate-Sourcing-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Candidate-Sourcing-Platform?style=flat-square" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Candidate-Sourcing-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Candidate Sourcing Platform Banner" width="100%" />
+</p>
 
+## 🚀 Overview & Ecosystem Guide
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+Welcome to the **Awesome Candidate Sourcing Platform** directory! This repository is a curated catalog of notable **SaaS platforms** and **open-source projects** for **Candidate Sourcing**, **Talent Discovery**, **Resume Parsing**, **AI Candidate Matching**, and **Recruiting CRM** infrastructure.
 
-*Focused on Talent Discovery, Candidate Matching, Resume Parsing & Recruiting CRM*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Candidate Sourcing**. These tools help recruiters and talent acquisition teams discover candidates, match profiles to job requirements, parse resumes, and manage recruiting pipelines.
-
-
-
-**Examples** include SeekOut, hireEZ, AmazingHiring, Fetcher, Entelo, Gem, SourceWhale, Loxo, Hiretual, and Juicebox (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom matching logic, and transparent candidate data — ideal for recruiting teams that need full control over their sourcing infrastructure without per-seat SaaS fees or vendor lock-in.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[SeekOut](https://seekout.com/)**
-
-  AI-powered talent sourcing platform with access to 1B+ profiles. Provides diversity sourcing, candidate matching, and talent analytics.
-
-
-
-- **[hireEZ](https://hireez.com/)**
-
-  Recruiting CRM and sourcing platform (formerly Hiretual). Provides candidate discovery, outreach automation, and talent pooling with 800M+ profiles.
-
-
-
-- **[AmazingHiring](https://amazinghiring.com/)**
-
-  AI-powered technical recruitment platform. Sources software engineers from GitHub, Stack Overflow, and social networks with deep technical profiling.
-
-
-
-- **[Fetcher](https://fetcher.ai/)**
-
-  Automated sourcing and outreach platform. Uses AI to identify and engage candidates, with personalized email sequences.
-
-
-
-- **[Entelo](https://www.entelo.com/)**
-
-  Talent acquisition platform with predictive analytics. Provides diversity sourcing, candidate matching, and outreach automation.
-
-
-
-- **[Gem](https://www.gem.com/)**
-
-  Recruiting CRM and talent engagement platform. Provides sourcing automation, outreach sequences, and pipeline analytics integrated with ATS.
-
-
-
-- **[SourceWhale](https://www.sourcewhale.com/)**
-
-  Multichannel sourcing and outreach platform. Automates candidate engagement across email, LinkedIn, and phone.
-
-
-
-- **[Loxo](https://www.loxo.co/)**
-
-  Recruiting CRM with built-in sourcing, outreach, and ATS capabilities. Provides candidate discovery and pipeline management.
-
-
-
-- **[Juicebox](https://juicebox.work/)**
-
-  People search engine with natural language queries. Provides candidate discovery across LinkedIn and other sources.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Applicant Tracking & Recruiting CRM
-
-
-
-- **[OpenCATS](https://github.com/opencats/OpenCATS)**
-
-  **The most established open-source applicant tracking system and recruiting CRM.** Free, community-maintained ATS designed for recruiters to manage the recruiting process from job posting through candidate selection and submission . Features candidate management with resumes, notes, status history, and recruiting activity; recruiting CRM with jobs, companies, contacts, and submissions; and full open-source control for self-hosting and code inspection . Actively maintained with PHP 8.4/8.5 modernization roadmap including search, API, and integration improvements . **Open source**.
-
-
-
-- **[JobLeet](https://github.com/nixhantb/jobleet-ui)**
-
-  Smart recruitment CRM platform connecting job seekers, recruiters, and companies. Features application tracking, personalized job recommendations, real-time notifications, analytics dashboard, communication system, resume builder, interview scheduling, role-based access control, talent pool management, and GDPR compliance. Built with Next.js 15 and TypeScript .
-
-
-
-- **[HR-OS](https://github.com/rathishreya/HR-OS)**
-
-  **AI-native hiring operating system** (FastAPI + React). Runs locally with zero keys using rule-based fallback, upgrades to full AI with credentials. Features candidate ingestion (paste or PDF/DOCX/TXT upload), resume parsing, embeddings, **explainable weighted AI scoring**, ranked pipeline, AI chat screening interview, stage management, and **MCP server** exposing 10 hiring tools. Tech stack: FastAPI + SQLAlchemy 2.0, SQLite/PostgreSQL, Claude/Ollama/rule-based AI, React 19 + Vite + Tailwind v4, Docker deployment. **Open source** .
-
-
-
-### Resume Parsing & Candidate Matching
-
-
-
-- **[ResumeParser](https://github.com/HarithaNetha8/ResumeParser)**
-
-  AI-powered resume parsing tool built with Python. Extracts structured information including **Name, Email, Phone Number, Skills** from resumes in PDF, DOCX, and TXT formats. Uses NLP (NLTK/spaCy) for accurate parsing with REST API support. Tech stack: Python, Flask, PyMuPDF/pdfplumber, python-docx. **Open source** .
-
-
-
-- **[candidate-scorer](https://github.com/soldera-org/candidate-scorer)**
-
-  Hiring page crawler and candidate scorer. Chrome extension captures LinkedIn applications, then Python script scores candidates against job advert, culture, and interview documents using Claude API. **Open source** .
-
-
-
-- **[job-scraper](https://github.com/anandanair/job-scraper)**
-
-  AI-powered suite to automate job scraping, resume parsing, job-to-resume scoring, and application tracking via GitHub Actions. Scrapes LinkedIn and CareersFuture, parses resume using AI, scores jobs against parsed resume. Uses Supabase for storage, LiteLLM for model flexibility. **Open source** .
-
-
-
-- **[LibMatch](https://github.com/)**
-
-  Official implementation of **LibMatch**, an AI-powered proactive talent acquisition framework that matches job postings with qualified GitHub developers based on their **software library usage** (Annals of Data Science, 2026). Python-based. **Open source** .
-
-
-
-### Job Boards & Talent Discovery
-
-
-
-- **[OpenPostings](https://github.com/Masterjx9/OpenPostings)**
-
-  Open-source ATS aggregator syncing job data from **110,000+ companies** across 80+ ATS platforms including Greenhouse, Lever, Workday, BambooHR, Ashoka, and government job sites. Pulls new job data at random, stores in database with 24-hour retention. Available as Android app and Windows installer. **Open source** .
-
-
-
-- **[JobHuntTS](https://github.com/BaseMax/JobHuntTS)**
-
-  Open-source job board platform with GraphQL API. Enables employers to post listings and job seekers to search and apply. Features job queries (getJobs, getJobById, getJobByTitle, getJobByCategory, getFeaturedJobs), user applications, bookmarks, reviews, and categories. Built with Express.js and GraphQL .
-
-
-
-- **[GitCareers/ProgrammingJobs](https://github.com/GitCareers/ProgrammingJobs)**
-
-  Free, open-source job board leveraging **GitHub Issues for job listings** and **Pull Requests for candidates to express interest**. Employers post via Issues, candidates apply via PR with skills and portfolio. Labels enable filtering by role, language, and location. **Open source** .
-
-
-
-### AI-Powered Sourcing Tools
-
-
-
-- **[LinkedIn Recruiter Assistant](https://github.com/junqing258/linkedin-job-assistant)**
-
-  LLM-based Chrome extension for LinkedIn Recruiter search optimization. Converts natural language hiring requirements to precise LinkedIn search conditions, with semantic candidate ranking based on job description match. Tech stack: React 18, TypeScript, Vite, Tailwind CSS, OpenAI GPT-4 API. **Open source** .
-
-
-
-- **[TalentLedger](https://github.com/C4rcer/talent-ledger)**
-
-  Firefox extension for LinkedIn candidate tracking. Capture profiles with one click, log contacts against jobs, track outreach on Kanban board with reminders. Export to Excel, CSV, or ATS format (Greenhouse, Workable, Teamtailor). Everything stored locally — no account, no server. **Open source** .
-
-
-
-- **[OpenJobs AI / People Skills](https://github.com/OpenJobsAI/openjobs-openclaw-skills)**
-
-  OpenClaw Skills for recruiting, talent sourcing, and job search powered by OpenJobs AI. Includes people search, candidate-job matching, job discovery, and academic scholar search skills for AI assistants. Open source .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **ATS & Recruiting CRM**: **OpenCATS** (most established, actively maintained), **JobLeet** (modern Next.js), **HR-OS** (AI-native with MCP server) .
-
-- **Resume Parsing**: **ResumeParser** (Python + NLP), **candidate-scorer** (Chrome + Claude), **job-scraper** (GitHub Actions automation) .
-
-- **Job Boards**: **OpenPostings** (110K+ companies), **JobHuntTS** (GraphQL), **GitCareers** (GitHub Issues-based) .
-
-- **AI Sourcing**: **LibMatch** (GitHub developer matching), **LinkedIn Recruiter Assistant** (search optimization), **TalentLedger** (local candidate tracking) .
-
-
-
-**Frameworks for building custom systems**: Combine **OpenCATS** for the ATS/CRM foundation, **ResumeParser** for structured resume extraction, **HR-OS** for AI-powered candidate scoring and screening, and **OpenPostings** for job data aggregation. Add **PostgreSQL** for persistence and **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Candidate sourcing platforms handle sensitive personal data; ensure compliance with GDPR, CCPA, and applicable employment regulations.
-
-- **Open-source reality**: The open-source ecosystem for candidate sourcing is **developing but not yet equivalent to commercial platforms**. **OpenCATS** provides a mature ATS/CRM foundation . **HR-OS** offers AI-native hiring with explainable scoring . Resume parsing tools (**ResumeParser**, **candidate-scorer**) provide building blocks . However, commercial platforms (SeekOut, hireEZ, Gem) offer **1B+ candidate profiles**, advanced diversity sourcing, and enterprise-grade outreach automation that open-source alternatives cannot match without significant data partnerships and infrastructure investment.
-
-
+Whether you are an enterprise recruiter searching for AI talent intelligence engines, a startup building talent acquisition workflows, or a developer engineering custom sourcing pipelines, this guide covers commercial market leaders and active open-source repositories.
 
 ---
 
+## 📑 Table of Contents
+- [💼 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Frameworks for Building Custom Sourcing Tools](#-frameworks-for-building-custom-sourcing-tools)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#-disclaimer)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
 
+---
 
-**Made for recruiters, talent acquisition teams, HR technologists, and sourcing specialists.**
+## 💼 SaaS / Hosted Platforms
 
-Let's make candidate sourcing more open, transparent, and effective.
+📊 **Market Overview**: The global candidate sourcing and talent acquisition software market is estimated at **~$3.2 Billion (2026)** and is **highly fragmented** with low vendor concentration (no single platform holds >15% market share), driven by fast-paced AI adoption and niche technical sourcing requirements.
+
+*The table below compares commercial candidate sourcing solutions, sorted by **Company Size (Revenue / Valuation)** in descending order:*
+
+| 🏢 Platform / Tool | 💰 Company Size (Valuation / Revenue) | 🏷️ Pricing (Starting Tier) | 🎁 Free Tier / Trial Limits | ⚡ Key Sourcing Features & Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Gem](https://www.gem.com/)** | **Valuation: $1.2 Billion** (Series C, $148M raised) | **$99/user/month** (Starter tier; ACV ~$24,900/yr) | **14-day free trial** (Includes 50 profile exports & sequence templates) | Recruiting CRM, automated candidate engagement sequences, and talent pipeline analytics integrated with ATS. |
+| **[SeekOut](https://seekout.com/)** | **Valuation: $1.2 Billion** (Series C, $115M raised, ~$25.2M ARR) | **$499/seat/month** (~$5,988/year per recruiter seat) | **7-day free trial** (Limited to 25 candidate profile views and searches) | Enterprise talent intelligence with 1B+ candidate profiles, diversity sourcing filters, and tech stack skill matching. |
+| **[Juicebox](https://juicebox.work/)** | **Valuation: $850 Million** (Series B, $116M raised) | **$139/seat/month** (Starter; AI agents ~$400/seat/mo) | **Free Forever Tier** (Includes 10 free profile search credits per month) | Natural language candidate search engine across LinkedIn and web sources with AI sourcing agents. |
+| **[Loxo](https://www.loxo.co/)** | **Funding: $115 Million** (Revenue ~$27.6M ARR) | **$169/seat/month** (Professional tier) | **Free Forever Plan** (1 seat, up to 100 candidate contacts, basic CRM/ATS) | All-in-one recruiting CRM with built-in candidate discovery, AI sourcing, and multichannel outreach automation. |
+| **[Entelo](https://www.entelo.com/)** | **Funding: $40 Million** Total Raised | **$350/seat/month** (~$4,200/year seat baseline) | **14-day free trial** (15 diversity candidate profile searches & preview features) | Predictive analytics talent acquisition platform with diversity sourcing, candidate matching, and email sequences. |
+| **[hireEZ](https://hireez.com/)** | **Funding: $26 Million+** (Revenue ~$20M ARR) | **$494/month** (Solo Plan; Team tier ~$13,000/yr) | **7-day free trial** (Up to 10 candidate contact detail unlocks) | Recruiting CRM and outbound sourcing platform (formerly Hiretual) with 800M+ candidate profiles and automated outreach. |
+| **[Fetcher](https://fetcher.ai/)** | **Funding: $12 Million** (Series B) | **$149/seat/month** (Starter Sourcing Plan) | **14-day free trial** (10 automated candidate lead recommendations) | Automated sourcing and candidate outreach platform using AI to match and engage passive candidate leads. |
+| **[SourceWhale](https://www.sourcewhale.com/)** | **Revenue: ~$11.9 Million ARR** | **$250/seat/month** ($3,000/year seat minimum) | **14-day free trial** (Up to 30 contact enrichment credits) | Multichannel candidate engagement platform automating outreach across email, LinkedIn, and phone channels. |
+| **[AmazingHiring](https://amazinghiring.com/)** | **Revenue: ~$2.8 Million ARR** | **$400/seat/month** (~$4,800/year per seat) | **7-day free trial** (5 developer profile exports & folder management) | Technical recruitment search engine aggregating engineer profiles across GitHub, Stack Overflow, and social networks. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Open-source candidate sourcing and recruiting tools empower organizations to build custom pipelines, maintain full data privacy compliance (GDPR/CCPA), and avoid vendor lock-in.
+
+*All open-source repositories below are sorted by **GitHub Star Count** in descending order:*
+
+### 🥇 Top Starred Open-Source Sourcing & Resume Systems
+
+1. **[Resume-Matcher](https://github.com/srbhr/Resume-Matcher)** [![GitHub stars](https://img.shields.io/github/stars/srbhr/Resume-Matcher?style=social&color=white)](https://github.com/srbhr/Resume-Matcher/stargazers)
+   - **Description**: Free, open-source AI-powered resume matching and ATS optimization tool. Uses vector embeddings and LLMs to score resumes against job descriptions locally to preserve candidate privacy.
+   - **Tech Stack**: Python, Streamlit, Qdrant, PyPDF2.
+
+2. **[pyresparser](https://github.com/OmkarPathak/pyresparser)** [![GitHub stars](https://img.shields.io/github/stars/OmkarPathak/pyresparser?style=social&color=white)](https://github.com/OmkarPathak/pyresparser/stargazers)
+   - **Description**: Python library for extracting structured information (Name, Email, Phone, Skills, Education, Experience) from resumes in PDF and DOCX formats using spaCy and NLTK.
+   - **Tech Stack**: Python, spaCy, NLTK, docx2txt.
+
+3. **[OpenCATS](https://github.com/opencats/OpenCATS)** [![GitHub stars](https://img.shields.io/github/stars/opencats/OpenCATS?style=social&color=white)](https://github.com/opencats/OpenCATS/stargazers)
+   - **Description**: The standard open-source Applicant Tracking System (ATS) and recruiting CRM. Provides applicant tracking, resume management, client database, job posting management, and recruitment reporting.
+   - **Tech Stack**: PHP, MySQL, Apache.
+
+4. **[OpenPostings](https://github.com/Masterjx9/OpenPostings)** [![GitHub stars](https://img.shields.io/github/stars/Masterjx9/OpenPostings?style=social&color=white)](https://github.com/Masterjx9/OpenPostings/stargazers)
+   - **Description**: Open-source job posting aggregator syncing job data from 110,000+ companies across 80+ ATS platforms (Greenhouse, Lever, Workday, BambooHR). Includes desktop & mobile apps.
+   - **Tech Stack**: TypeScript, Node.js, Electron, Android.
+
+5. **[talent-sourcing-toolkit](https://github.com/ohsusannamarie/talent-sourcing-toolkit)** [![GitHub stars](https://img.shields.io/github/stars/ohsusannamarie/talent-sourcing-toolkit?style=social&color=white)](https://github.com/ohsusannamarie/talent-sourcing-toolkit/stargazers)
+   - **Description**: Curated repository of talent sourcing scripts, X-ray search strings, OSINT recruiting tools, and workflow templates for candidate discovery.
+   - **Tech Stack**: Markdown, Shell, Sourcing Templates.
+
+6. **[job-scraper](https://github.com/anandanair/job-scraper)** [![GitHub stars](https://img.shields.io/github/stars/anandanair/job-scraper?style=social&color=white)](https://github.com/anandanair/job-scraper/stargazers)
+   - **Description**: Automated candidate job scraper, resume parser, and job-to-resume scoring tool executed via GitHub Actions. Uses Supabase for storage and LiteLLM for AI scoring.
+   - **Tech Stack**: Python, GitHub Actions, Supabase, LiteLLM.
+
+7. **[OpenJobs AI / People Skills](https://github.com/OpenJobsAI/openjobs-openclaw-skills)** [![GitHub stars](https://img.shields.io/github/stars/OpenJobsAI/openjobs-openclaw-skills?style=social&color=white)](https://github.com/OpenJobsAI/openjobs-openclaw-skills/stargazers)
+   - **Description**: OpenClaw skills suite for candidate discovery, people search, skill taxonomy matching, and academic scholar sourcing for AI recruiting agents.
+   - **Tech Stack**: Python, OpenClaw Agent SDK.
+
+8. **[JobHuntTS](https://github.com/BaseMax/JobHuntTS)** [![GitHub stars](https://img.shields.io/github/stars/BaseMax/JobHuntTS?style=social&color=white)](https://github.com/BaseMax/JobHuntTS/stargazers)
+   - **Description**: Open-source job board platform and candidate application API built with GraphQL. Supports job search, bookmarks, application tracking, and candidate submissions.
+   - **Tech Stack**: Express.js, GraphQL, JavaScript.
+
+9. **[HR-OS](https://github.com/rathishreya/HR-OS)** [![GitHub stars](https://img.shields.io/github/stars/rathishreya/HR-OS?style=social&color=white)](https://github.com/rathishreya/HR-OS/stargazers)
+   - **Description**: AI-native hiring operating system featuring candidate resume ingestion, local vector embeddings, explainable weighted AI scoring, screening chat interview agent, and an MCP server with 10 hiring tools.
+   - **Tech Stack**: FastAPI, React 19, Vite, Tailwind v4, Claude/Ollama.
+
+10. **[JobLeet](https://github.com/nixhantb/jobleet-ui)** [![GitHub stars](https://img.shields.io/github/stars/nixhantb/jobleet-ui?style=social&color=white)](https://github.com/nixhantb/jobleet-ui/stargazers)
+    - **Description**: Modern candidate CRM and ATS connecting candidates, recruiters, and companies with real-time notifications, talent pool management, and interview scheduling.
+    - **Tech Stack**: Next.js 15, TypeScript, Tailwind CSS.
+
+11. **[ResumeParser](https://github.com/HarithaNetha8/ResumeParser)** [![GitHub stars](https://img.shields.io/github/stars/HarithaNetha8/ResumeParser?style=social&color=white)](https://github.com/HarithaNetha8/ResumeParser/stargazers)
+    - **Description**: Lightweight Flask REST API for parsing candidate resumes (PDF, DOCX, TXT) into structured JSON containing contact details and extracted skills.
+    - **Tech Stack**: Python, Flask, PyMuPDF, python-docx.
+
+12. **[candidate-scorer](https://github.com/soldera-org/candidate-scorer)** [![GitHub stars](https://img.shields.io/github/stars/soldera-org/candidate-scorer?style=social&color=white)](https://github.com/soldera-org/candidate-scorer/stargazers)
+    - **Description**: Chrome extension and Python candidate scoring workflow. Captures LinkedIn applicant profiles and scores candidates against job specs and culture fit using Claude AI API.
+    - **Tech Stack**: JavaScript (Chrome Extension), Python, Claude API.
+
+13. **[LinkedIn Recruiter Assistant](https://github.com/junqing258/linkedin-job-assistant)** [![GitHub stars](https://img.shields.io/github/stars/junqing258/linkedin-job-assistant?style=social&color=white)](https://github.com/junqing258/linkedin-job-assistant/stargazers)
+    - **Description**: Chrome extension for LinkedIn search optimization. Translates natural language hiring criteria into precise Boolean search queries and performs semantic candidate ranking.
+    - **Tech Stack**: React 18, TypeScript, OpenAI GPT-4 API.
+
+14. **[TalentLedger](https://github.com/C4rcer/talent-ledger)** [![GitHub stars](https://img.shields.io/github/stars/C4rcer/talent-ledger?style=social&color=white)](https://github.com/C4rcer/talent-ledger/stargazers)
+    - **Description**: Browser extension for local candidate tracking. One-click LinkedIn candidate logging, Kanban outreach pipeline management, local-first storage, and export to Greenhouse/Workable CSV.
+    - **Tech Stack**: JavaScript, Browser Extension API.
+
+---
+
+## 🛠️ Frameworks for Building Custom Sourcing Tools
+
+To construct an end-to-end self-hosted recruiting stack:
+- 🏗️ **ATS & Candidate Management Core**: Deploy **OpenCATS** or **JobLeet** for candidate pipeline state, applicant tracking, and recruiter activity.
+- 📄 **Resume Parsing & Vector Search**: Combine **Resume-Matcher** or **pyresparser** to transform unstructured PDF/Word resumes into JSON data and vector embeddings.
+- 🧠 **AI Scoring & Screening Agent**: Integrate **HR-OS** or **candidate-scorer** for automated candidate relevance scoring against job requirements.
+- 📡 **Job Data & Sourcing Sync**: Use **OpenPostings** or **job-scraper** for multi-board job syndication and candidate profile scraping.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! To contribute:
+1. Fork this repository.
+2. Add your candidate sourcing tool, open-source project, or parser in the relevant section.
+3. Include tool name, URL, exact pricing / star badge, and factual 1-2 sentence description.
+4. Submit a Pull Request with a short summary of changes.
+
+---
+
+## ⚠️ Disclaimer
+
+This list is curated for informational and educational purposes. Candidate sourcing platforms and resume parsing engines process sensitive personal data. Ensure all deployment configurations comply with applicable data protection legislation including GDPR, CCPA, and regional talent acquisition regulations.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this candidate sourcing directory helpful, please consider supporting the project!
+
+- ⭐ **Star** this repository on GitHub.
+- 🔀 **Fork** and share it with your recruiting and engineering networks.
+- ☕ **Buy Me a Coffee / Sponsor**: Support ongoing maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor%20Me-%E2%9D%A4-pink?style=for-the-badge&logo=github" alt="Sponsor"/></a>
+</p>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Candidate-Sourcing-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Candidate-Sourcing-Platform&type=date&legend=top-left)

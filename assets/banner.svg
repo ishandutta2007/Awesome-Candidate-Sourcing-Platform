@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="40%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#312e81" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.0" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <!-- CSS Animations -->
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(1deg); }
+      }
+      @keyframes floatFast {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.3; transform: scale(1); }
+        50% { opacity: 0.6; transform: scale(1.05); }
+      }
+      @keyframes scanLine {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(1200px); }
+      }
+      @keyframes dashRotate {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: 100; }
+      }
+
+      .floating-card-1 { animation: floatSlow 6s ease-in-out infinite; }
+      .floating-card-2 { animation: floatSlow 7s ease-in-out infinite 1s; }
+      .floating-card-3 { animation: floatFast 5s ease-in-out infinite 0.5s; }
+      .pulsing-orb { animation: pulseGlow 4s ease-in-out infinite; }
+      .scanner-beam { animation: scanLine 8s linear infinite; }
+      .network-line { stroke-dasharray: 6 6; animation: dashRotate 20s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Animated Glowing Orbs Background -->
+  <circle cx="200" cy="90" r="180" fill="url(#glowGrad)" class="pulsing-orb" />
+  <circle cx="1000" cy="270" r="220" fill="url(#glowGrad)" class="pulsing-orb" style="animation-delay: 2s;" />
+
+  <!-- Tech Grid Network Background Lines -->
+  <g stroke="#ffffff" stroke-opacity="0.05" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="200" y1="0" x2="200" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="1000" y1="0" x2="1000" y2="360" />
+  </g>
+
+  <!-- Dynamic Network Nodes & Connections -->
+  <g opacity="0.4">
+    <line x1="900" y1="80" x2="1050" y2="140" stroke="#818cf8" stroke-width="1.5" class="network-line" />
+    <line x1="1050" y1="140" x2="980" y2="240" stroke="#a855f7" stroke-width="1.5" class="network-line" />
+    <line x1="980" y1="240" x2="840" y2="200" stroke="#38bdf8" stroke-width="1.5" class="network-line" />
+    <line x1="840" y1="200" x2="900" y2="80" stroke="#6366f1" stroke-width="1.5" class="network-line" />
+
+    <circle cx="900" cy="80" r="5" fill="#38bdf8" />
+    <circle cx="1050" cy="140" r="7" fill="#a855f7" />
+    <circle cx="980" cy="240" r="6" fill="#ec4899" />
+    <circle cx="840" cy="200" r="4" fill="#818cf8" />
+  </g>
+
+  <!-- Scanning Light Bar -->
+  <rect x="0" y="0" width="150" height="360" fill="url(#glowGrad)" class="scanner-beam" opacity="0.15" />
+
+  <!-- Floating Feature Pills / Cards (Positioned lower and to the sides so main text is unobstructed) -->
+  <g class="floating-card-1">
+    <rect x="75" y="270" width="170" height="42" rx="21" fill="url(#cardGrad)" stroke="#6366f1" stroke-opacity="0.4" stroke-width="1.5" />
+    <text x="160" y="296" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" text-anchor="middle">⚡ AI Matching</text>
+  </g>
+
+  <g class="floating-card-2">
+    <rect x="950" y="55" width="180" height="42" rx="21" fill="url(#cardGrad)" stroke="#a855f7" stroke-opacity="0.4" stroke-width="1.5" />
+    <text x="1040" y="81" fill="#e9d5ff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" text-anchor="middle">🔍 Resume Parsing</text>
+  </g>
+
+  <g class="floating-card-3">
+    <rect x="940" y="270" width="185" height="42" rx="21" fill="url(#cardGrad)" stroke="#ec4899" stroke-opacity="0.4" stroke-width="1.5" />
+    <text x="1032" y="296" fill="#fbcfe8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" text-anchor="middle">🌐 Open-Source ATS</text>
+  </g>
+
+  <!-- Main Headline Banner Gradient Bar -->
+  <rect x="80" y="70" width="220" height="8" rx="4" fill="url(#accentGrad)" />
+
+  <!-- FOREGROUND TEXT (Guaranteed top visual layer, crystal clear foreground readability) -->
+  <!-- Top Category Tag -->
+  <text x="80" y="112" fill="#a5b4fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" letter-spacing="2">CURATED RECRUITING &amp; TALENT ECOSYSTEM</text>
+
+  <!-- Title -->
+  <text x="80" y="170" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="40" font-weight="800" letter-spacing="-0.5">Awesome Candidate Sourcing Platform</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="212" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400">Discover &amp; compare top SaaS candidate discovery tools &amp; open-source recruiting frameworks</text>
+
+  <!-- Decorative Bottom Accent Line -->
+  <rect x="80" y="240" width="480" height="2" fill="url(#accentGrad)" opacity="0.6" />
+</svg>
