@@ -128,6 +128,8 @@ To construct an end-to-end self-hosted recruiting stack:
 
 ---
 
+- ✉️ **Outreach drafting with a review queue**: Follow the [candidate sourcing guide](https://candidatesourcingguide.com/how-to-source-candidates) and run its open-source [candidate sourcing agent](https://github.com/Kortix-seo/candidate-sourcing-agent) for one open role: it searches LinkedIn, drops anyone already in that role's Greenhouse pipeline, and leaves one draft email per new match in a review inbox. The run documented in the repository read 31 profiles, dropped 13 that were already in the pipeline, drafted 18 emails, and sent none.
+
 ## 🤝 How to Contribute
 
 Contributions are welcome! To contribute:
